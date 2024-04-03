@@ -14,6 +14,8 @@ public class AirTransportation extends Transport
 
     /**
      * Construtor para objetos da classe AirTransportation
+     * @param name, Nome da aeronave
+     * @param numberOfContainers, Número de contentores
      */
     public AirTransportation(String name, int numberOfContainers)
     {
@@ -57,7 +59,9 @@ public class AirTransportation extends Transport
    public String getTransportType() {
         return "Transporte Aereo";
     }
-    
+    /**
+     * Método toString()
+     */
     @Override
     public String toString(){
         final StringBuilder sb = new StringBuilder();
