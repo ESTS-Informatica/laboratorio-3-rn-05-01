@@ -38,8 +38,14 @@ public class AirTransportation extends Transport
     }
     
     public void setNumberOfContainers(int numberOfContainers){
+        
+        if (numberOfContainers < 0){
+             return;
+        }
         this.numberOfContainers = numberOfContainers;
+        
     }
+    
    /**
     * 
     */ 
