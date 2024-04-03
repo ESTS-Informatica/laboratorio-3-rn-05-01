@@ -9,7 +9,7 @@ public class GroundTransportation extends Transport
 {
     
     private String licensePlate;
-    private static double feeGroundTransportation = 0.03;
+    private static double feeGroundTransportation = 3;
   
 
     /**
@@ -19,7 +19,7 @@ public class GroundTransportation extends Transport
     {
         // inicializa variáveis de instância
         this.licensePlate=licensePlate;
-        feeGroundTransportation = 0.03;
+        setFees(feeGroundTransportation);
     }
      
     
