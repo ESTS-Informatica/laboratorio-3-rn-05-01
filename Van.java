@@ -21,7 +21,7 @@ public class Van extends GroundTransportation
 
    
     /**
-     * Metudo para retornar numero de pakages
+     * Metodo para retornar numero de pakages
      * 
      */
     public int getPackages(){
@@ -31,7 +31,7 @@ public class Van extends GroundTransportation
     
     
     /**
-     * Metudo para atualizar o numero de packages
+     * Método para atualizar o numero de packages
      * 
      * @param matricula
      */

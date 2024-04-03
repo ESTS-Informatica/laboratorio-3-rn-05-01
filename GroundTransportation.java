@@ -17,7 +17,7 @@ public class GroundTransportation extends Transport
      */
     public GroundTransportation(String licensePlate )
     {
-        // inicializa variáveis de instância
+        super();
         this.licensePlate=licensePlate;
         setFees(feeGroundTransportation);
     }

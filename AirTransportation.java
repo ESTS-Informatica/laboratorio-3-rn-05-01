@@ -19,6 +19,7 @@ public class AirTransportation extends Transport
      */
     public AirTransportation(String name, int numberOfContainers)
     {
+        super();
         this.name =name;
         this.numberOfContainers = numberOfContainers;
         setFees(feeAirTransportation);
