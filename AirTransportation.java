@@ -10,7 +10,7 @@ public class AirTransportation extends Transport
     // variáveis de instância 
     private String name;
     private int numberOfContainers;
-    private static double feeAirTransportation = 0.04;
+    private static double feeAirTransportation = 4;
 
     /**
      * Construtor para objetos da classe AirTransportation
@@ -19,7 +19,7 @@ public class AirTransportation extends Transport
     {
         this.name =name;
         this.numberOfContainers = numberOfContainers;
-        feeAirTransportation = 0.04;
+        setFees(feeAirTransportation);
         
     }
     /**
