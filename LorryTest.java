@@ -14,7 +14,7 @@ import org.junit.jupiter.api.Test;
 public class LorryTest
 {
     private Lorry lorry;
-    private GroundTransportation groundTransport;
+    
     /**
      * Construtor default para a classe de teste LorryTest
      */
